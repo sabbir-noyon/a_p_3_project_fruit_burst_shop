@@ -1,3 +1,33 @@
 .font-lato{
     font-family: 'Lato', sans-serif;
 }
+
+.nav-container{
+    max-width: 1440px;
+    margin: 0 auto;
+  border-radius: 600px;
+  padding:25px;
+  margin-top: 50px;
+}
+
+.fa-solid{
+    color: wheat;
+}
+
+.search-input{
+    position: relative;
+    border: 1px solid rgb(213, 207, 207);
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.search-btn{
+position: absolute;
+right: 265px;
+top:15px;
+}
+
+::placeholder{
+    font-size: 15px;
+}
+

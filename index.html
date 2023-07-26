@@ -9,7 +9,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
     <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.min.css" integrity="sha384-...">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
     <!--tailwind and daisy ui links-->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -18,17 +22,38 @@
 </head>
 <body >
     <header>
-        <!--Navigation area start-->
-        <nav>
-            <div class="nav-container">
-                <div class="nav-menubars">
-                  <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">Fruits</a></li>
+     <!--Navigation area start-->
+        <nav >
+            <div class="nav-container flex  items-center  justify-between  bg-[#F85559;]">
+                
+                <div class="nav-menubars bg-">
+                  <ul class="flex">
+                    <li><a class="p-4 "href="#">Home</a></li>
+                    <li><a  class="p-4 "href="#">About Us</a></li>
+                    <li><a class="p-4 "href="#">Shop</a></li>
+                    <li><a class="p-4 "href="#">Fruits</a></li>
                   </ul>
                 </div>
+
+                <div class="div flex justify-center items-center ">
+                    <div class="nav-logo">
+                        <img src="images/logo.png">
+                        
+                    </div>
+    
+                    <div class="nav-heading">
+                        <h1>Fruit Burst</h1>
+                    </div>
+                </div>
+
+                <div class="nav-search">
+                    <form action="#" class="search-bar">
+                        <input class="search-input" type="text" placeholder=" Search here">
+                        <button class="search-btn" type="submit"> <i class="fa-solid fa-magnifying-glass"></i> </button>
+                        
+                    </form>
+                </div>
+            
             </div>
         </nav>
 
