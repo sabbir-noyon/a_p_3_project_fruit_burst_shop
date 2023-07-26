@@ -44,3 +44,28 @@ top:100px;
     
 }
 
+.caro-div{
+    max-width: 1440px;
+     border-radius:15px;
+     margin-left: 240px;
+     
+
+   /* height: 700px;*/
+
+   
+}
+/*
+.button{
+   background-color:  #F85559;
+   color: aqua;
+}
+*/
+
+.button{
+    font-size:20px;
+    font-weight: 800;
+    color: white;
+    background-color: #F85559;
+    text-transform: capitalize;
+    border: none;
+}
