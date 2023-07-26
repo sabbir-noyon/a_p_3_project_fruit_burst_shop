@@ -69,3 +69,7 @@ top:100px;
     text-transform: capitalize;
     border: none;
 }
+
+.section-deal-day{
+    max-width:1440px;
+}
