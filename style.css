@@ -81,16 +81,46 @@ top:100px;
 
 .card-1{
     border:1px solid #12121210;
+
+    width: 342px;
+    height: 477px;
+    border-radius: 8px;
+    background: #FFF;
+
 }
 
 .card-2{
     border:1px solid #12121210;
+    width: 342px;
+    height: 477px;
+    border-radius: 8px;
+    background: #FFF;
 }
 
 .card-3{
     border:1px solid #12121210;
+    width: 342px;
+    height: 477px;
+    border-radius: 8px;
+    background: #FFF;
 }
 
 .card-4{
     border:1px solid #12121210;
+    width: 342px;
+    height: 477px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.card-er-button .btn-card{  
+    width:135px;
+    height: 64px;
+border-radius: 5px;
+    background: #F85559;
+    color: #FFF;
+text-align: center;
+font-size: 18px;
+font-weight: 800;
+border: none;
 }
