@@ -74,3 +74,23 @@ top:100px;
     max-width:1440px;
 }
 
+.card-container{
+    max-width: 1440px;
+}
+
+
+.card-1{
+    border:1px solid #12121210;
+}
+
+.card-2{
+    border:1px solid #12121210;
+}
+
+.card-3{
+    border:1px solid #12121210;
+}
+
+.card-4{
+    border:1px solid #12121210;
+}
