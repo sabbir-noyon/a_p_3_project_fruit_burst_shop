@@ -1,3 +1,6 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
 .font-lato{
     font-family: 'Lato', sans-serif;
 }
@@ -11,23 +14,33 @@
 }
 
 .fa-solid{
-    color: wheat;
+    color: #928c8c;
+    font-size: 24px;
+ 
 }
 
 .search-input{
     position: relative;
-    border: 1px solid rgb(213, 207, 207);
+  
     border-radius: 50px;
     padding: 5px;
+    width: 400px;
+    height: 55px;
 }
 
 .search-btn{
-position: absolute;
-right: 265px;
-top:15px;
+    position: absolute;
+right: 286px;
+top:100px;
+
+
 }
 
 ::placeholder{
     font-size: 15px;
+    color:rgba(18, 18, 18, 0.40);
+    font-size: 20px;
+    font-family: 400;
+    
 }
 
