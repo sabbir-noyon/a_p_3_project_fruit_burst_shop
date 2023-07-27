@@ -63,7 +63,7 @@ top:100px;
 
 .button{
     font-size:20px;
-    font-weight: 800;
+    font-weight: 700;
     color: white;
     background-color: #F85559;
     text-transform: capitalize;
@@ -123,4 +123,33 @@ text-align: center;
 font-size: 18px;
 font-weight: 800;
 border: none;
+}
+
+.team-member-bg-image{
+
+    background-image: url(images/banner1.png);
+    
+    background-size:cover;
+    max-width: 1440px;
+    margin:0 auto;
+    height: 690px;}
+
+.container-plus-overlay{
+
+
+
+
+
+
+
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size:cover;
+    max-width: 1440px;
+    margin:0 auto;
+    height: 690px;
+
+}
+
+.images-box-team-member{
+    max-width: 1028px;
 }
